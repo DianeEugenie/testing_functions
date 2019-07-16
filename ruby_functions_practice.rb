@@ -38,14 +38,26 @@
 #   return number_1.to_i + number_2.to_i
 # end
 
-#9
-def number_to_full_month_name(number)
+# #9
+# def number_to_full_month_name(number)
+#   case number
+#     when 1
+#       return "January"
+#     when 3
+#       return "March"
+#     when 9
+#       return "September"
+#   end
+# end
+
+#10
+def number_to_short_month_name(number)
   case number
     when 1
-      return "January"
-    when 3
-      return "March"
-    when 9
-      return "September"
+      return "Jan"
+    when 4
+      return "Apr"
+    when 10
+      return "Oct"
   end
 end
