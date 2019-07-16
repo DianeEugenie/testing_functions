@@ -1,12 +1,12 @@
-#1
-def return_10
-  return 10
-end
-
-# #2
-# def add(first_number, second_number)
-#   return first_number + second_number
+# #1
+# def return_10
+#   return 10
 # end
+
+#2
+def add(first_number, second_number)
+  return first_number + second_number
+end
 
 # #3
 # def subtract(first_number, second_number)
