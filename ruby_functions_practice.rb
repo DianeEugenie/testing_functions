@@ -13,15 +13,15 @@
 #   return first_number - second_number
 # end
 
-#4
-def multiply(first_number, second_number)
-  return first_number * second_number
-end
-
-# #5
-# def divide(first_number, second_number)
-#   return first_number / second_number
+# #4
+# def multiply(first_number, second_number)
+#   return first_number * second_number
 # end
+
+#5
+def divide(first_number, second_number)
+  return first_number / second_number
+end
 
 # #6
 # def length_of_string(string)
