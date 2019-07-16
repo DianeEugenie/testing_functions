@@ -65,12 +65,20 @@
 # #11
 # def volume_of_cube(length)
 #
-#   return length.to_i ** 3
+#   return length ** 3
 #
 # end
 
 #12
 def volume_of_sphere(radius)
   $pi = 3.14159265359
-  return radius.to_i ** 3 * 4/3 * $pi
+  return radius ** 3 * 4/3 * $pi
 end
+
+
+# #13
+# def fahrenheit_to_celsius(degrees)
+#
+#   return (degrees - 32) * 5 /9
+#
+# end
