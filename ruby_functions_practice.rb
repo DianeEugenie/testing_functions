@@ -30,7 +30,7 @@ end
 
 #7
 def join_string(string_1, string_2)
-  return string_1 + string_2
+  return string_1.to_s + string_2.to_s
 end
 
 #8
@@ -88,8 +88,7 @@ def volume_of_sphere_PI(radius)
   return radius ** 3 * 4/3 * (Math::PI)
 end
 
-
-#13
+13
 def fahrenheit_to_celsius(fahrenheit)
 
   return (fahrenheit - 32) * 5/9

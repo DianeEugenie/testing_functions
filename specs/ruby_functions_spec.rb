@@ -87,7 +87,7 @@ class FunctionsTest < MiniTest::Test
     result = 8
     # 2 * 2 * 2 or 2^3
 
-    assert_equal(8, result)
+    assert_equal(result, cube_2)
   end
 
   #Given the radius of a sphere calculate the volume
@@ -97,7 +97,7 @@ class FunctionsTest < MiniTest::Test
 
     result = 521.50438049594
 
-    assert_equal(sphere_5, result)
+    assert_equal(result, sphere_5)
 
   end
 
@@ -107,7 +107,7 @@ class FunctionsTest < MiniTest::Test
 
     result = 521.5043804959057
 
-    assert_equal(sphere_5, result)
+    assert_equal(result, sphere_5)
 
         # ➜  start_point git:(master) irb
         # irb(main):001:0> Math::PI
@@ -123,9 +123,9 @@ class FunctionsTest < MiniTest::Test
 
     result = -4
 
-    assert_equal(fahrenheit_25, result)
+    assert_equal(result, fahrenheit_25)
 
   end
-
+  #
 
 end
