@@ -18,15 +18,15 @@
 #   return first_number * second_number
 # end
 
-#5
-def divide(first_number, second_number)
-  return first_number / second_number
-end
-
-# #6
-# def length_of_string(string)
-#   return string.length
+# #5
+# def divide(first_number, second_number)
+#   return first_number / second_number
 # end
+
+#6
+def length_of_string(string)
+  return string.length
+end
 
 # #7
 # def join_string(string_1, string_2)
