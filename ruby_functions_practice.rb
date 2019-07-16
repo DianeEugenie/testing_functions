@@ -69,16 +69,18 @@
 #
 # end
 
-#12
-def volume_of_sphere(radius)
-  $pi = 3.14159265359
-  return radius ** 3 * 4/3 * $pi
+# #12
+# def volume_of_sphere(radius)
+#   $pi = 3.14159265359
+#   return radius ** 3 * 4/3 * $pi
+# end
+
+
+#13
+def fahrenheit_to_celsius(fahrenheit)
+
+  return (fahrenheit - 32) * 5/9
+
 end
 
-
-# #13
-# def fahrenheit_to_celsius(degrees)
-#
-#   return (degrees - 32) * 5 /9
-#
-# end
+# p fahrenheit_to_celsius(25) = comes to -4 (rounded down)

@@ -91,26 +91,27 @@ class FunctionsTest < MiniTest::Test
   # end
   #
   #Given the radius of a sphere calculate the volume
-  def test_volume_of_sphere()
+  # def test_volume_of_sphere()
+  #   #add test code here
+  #   sphere_5 = volume_of_sphere(5)
+  #
+  #   result = 5**3 * 4/3 * $pi
+  #
+  #   assert_equal(sphere_5, result)
+  #
+  #
+  # end
+
+  #Given a value in farenheit, convert this into celsius.
+  def test_fahrenheit_to_celsius()
     #add test code here
-    sphere_5 = volume_of_sphere(5)
+    fahrenheit_25 = fahrenheit_to_celsius(25)
 
-    result = 5**3 * 4/3 * $pi
+    result = (25 - 32) * 5/9
 
-    assert_equal(sphere_5,result)
-
+    assert_equal(fahrenheit_25, result)
 
   end
-  #
-  #Given a value in farenheit, convert this into celsius.
-  # def test_fahrenheit_to_celsius()
-  #   #add test code here
-  #   degrees_25 = fahrenheit_to_celsius(25)
-  #
-  #   result (25 - 32) * 5 /9
-  #
-  #   assert_equal(degrees_25, result)
-  # end
 
 
 end
