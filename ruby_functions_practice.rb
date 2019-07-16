@@ -3,20 +3,20 @@
 #   return 10
 # end
 
-#2
-def add(first_number, second_number)
-  return first_number + second_number
-end
+# #2
+# def add(first_number, second_number)
+#   return first_number + second_number
+# end
 
 # #3
 # def subtract(first_number, second_number)
 #   return first_number - second_number
 # end
 
-# #4
-# def multiply(first_number, second_number)
-#   return first_number * second_number
-# end
+#4
+def multiply(first_number, second_number)
+  return first_number * second_number
+end
 
 # #5
 # def divide(first_number, second_number)
