@@ -83,15 +83,15 @@
 #   return radius ** 3 * 4/3 * $pi
 # end
 
-#12a After I learned from Kevin that PI was embedded somewhere in ruby_functions_practice
-def volume_of_sphere(radius)
-  return radius ** 3 * 4/3 * (Math::PI)
-end
-
-
-# #13
-# def fahrenheit_to_celsius(fahrenheit)
-#
-#   return (fahrenheit - 32) * 5/9
-#
+# #12a After I learned from Kevin that PI was embedded somewhere in ruby
+# def volume_of_sphere(radius)
+#   return radius ** 3 * 4/3 * (Math::PI)
 # end
+
+
+#13
+def fahrenheit_to_celsius(fahrenheit)
+
+  return (fahrenheit - 32) * 5/9
+
+end

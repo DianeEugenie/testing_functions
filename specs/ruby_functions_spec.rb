@@ -101,30 +101,30 @@ class FunctionsTest < MiniTest::Test
   #
   # end
 
-  def test_volume_of_sphere__PI()
-    sphere_5 = volume_of_sphere(5)
-
-    result = 521.5043804959057
-
-    assert_equal(sphere_5, result)
-
-        # ➜  start_point git:(master) irb
-        # irb(main):001:0> Math::PI
-        # => 3.141592653589793
-        # irb(main):002:0>
-  end
-
-
-  # #Given a value in farenheit, convert this into celsius.
-  # def test_fahrenheit_to_celsius()
-  #   #add test code here
-  #   fahrenheit_25 = fahrenheit_to_celsius(25)
+  # def test_volume_of_sphere__PI()
+  #   sphere_5 = volume_of_sphere(5)
   #
-  #   result = (25 - 32) * 5/9
+  #   result = 521.5043804959057
   #
-  #   assert_equal(fahrenheit_25, result)
+  #   assert_equal(sphere_5, result)
   #
+  #       # ➜  start_point git:(master) irb
+  #       # irb(main):001:0> Math::PI
+  #       # => 3.141592653589793
+  #       # irb(main):002:0>
   # end
+
+
+  #Given a value in farenheit, convert this into celsius.
+  def test_fahrenheit_to_celsius()
+    #add test code here
+    fahrenheit_25 = fahrenheit_to_celsius(25)
+
+    result = -4
+
+    assert_equal(fahrenheit_25, result)
+
+  end
 
 
 end
