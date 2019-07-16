@@ -62,27 +62,32 @@ class FunctionsTest < MiniTest::Test
   #   assert_equal( "September", result )
   # end
   #
-  def test_number_to_short_month_name__month_1()
-    first_month_string = number_to_short_month_name( 1 )
-    assert_equal( "Jan", first_month_string )
-  end
-
-  def test_number_to_short_month_name__month_4()
-    fourth_month_string = number_to_short_month_name( 4 )
-    assert_equal( "Apr", fourth_month_string )
-  end
-
-  def test_number_to_short_month_name__month_10()
-    tenth_month_string = number_to_short_month_name( 10 )
-    assert_equal( "Oct", tenth_month_string )
-  end
+  # def test_number_to_short_month_name__month_1()
+  #   first_month_string = number_to_short_month_name( 1 )
+  #   assert_equal( "Jan", first_month_string )
+  # end
+  #
+  # def test_number_to_short_month_name__month_4()
+  #   fourth_month_string = number_to_short_month_name( 4 )
+  #   assert_equal( "Apr", fourth_month_string )
+  # end
+  #
+  # def test_number_to_short_month_name__month_10()
+  #   tenth_month_string = number_to_short_month_name( 10 )
+  #   assert_equal( "Oct", tenth_month_string )
+  # end
   #
   # #Further
   #
-  # #Given the length of a side of a cube calculate the volume
-  # def test_volume_of_cube()
-  #   #add test code here
-  # end
+  #Given the length of a side of a cube calculate the volume
+  def test_volume_of_cube()
+    #act
+    cube_2 = volumbe_of_cube(2)
+
+    result = 8 # 2 * 2 * 2 or 2^3
+
+    assert_equal(cube_2, result)
+  end
   #
   # #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
