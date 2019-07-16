@@ -91,16 +91,28 @@ class FunctionsTest < MiniTest::Test
   # end
 
   #Given the radius of a sphere calculate the volume
-  def test_volume_of_sphere()
-    #add test code here
+  # def test_volume_of_sphere()
+  #   #add test code here
+  #   sphere_5 = volume_of_sphere(5)
+  #
+  #   result = 521.50438049594
+  #
+  #   assert_equal(sphere_5, result)
+  #
+  # end
+
+  def test_volume_of_sphere__PI()
     sphere_5 = volume_of_sphere(5)
 
-    result = 521.50438049594
+    result = 521.5043804959057
 
     assert_equal(sphere_5, result)
 
+        # ➜  start_point git:(master) irb
+        # irb(main):001:0> Math::PI
+        # => 3.141592653589793
+        # irb(main):002:0>
   end
-
 
 
   # #Given a value in farenheit, convert this into celsius.

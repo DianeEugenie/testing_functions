@@ -77,16 +77,16 @@
 #
 # end
 #
-#12
-def volume_of_sphere(radius)
-  $pi = 3.14159265359
-  return radius ** 3 * 4/3 * $pi
-end
-
-# #12a After I learned from Kevin that PI was embedded somewhere in ruby_functions_practice
+# #12
 # def volume_of_sphere(radius)
-#   return 4/3 * Math::PI * radius ** 3
+#   $pi = 3.14159265359
+#   return radius ** 3 * 4/3 * $pi
 # end
+
+#12a After I learned from Kevin that PI was embedded somewhere in ruby_functions_practice
+def volume_of_sphere(radius)
+  return radius ** 3 * 4/3 * (Math::PI)
+end
 
 
 # #13
