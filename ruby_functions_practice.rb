@@ -62,9 +62,15 @@
 #   end
 # end
 
-#11
-def volumbe_of_cube(length)
+# #11
+# def volume_of_cube(length)
+#
+#   return length.to_i ** 3
+#
+# end
 
-  return length.to_i ** 3
-
+#12
+def volume_of_sphere(radius)
+  $pi = 3.14159265359
+  return radius.to_i ** 3 * 4/3 * $pi
 end
